@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento PetAMigo</title>
+</head>
+
+<body>
+    <header>
+        <h1>FORMULÁRIO DE INSCRIÇÃO</h1>
+        <a href="#enviar"></a>
+    </header>
+    <main>
+        <section>
+            <h2>Como funciona?</h2>
+            <p>O formulário de apresentação da PetAmigos foi criado para conhecermos melhor você e seu pet. 🐾
+                <br>Com ele, poderemos saber o nome, a idade, a raça e as preferências do seu companheiro.
+                Essas informações nos ajudam a oferecer um atendimento mais personalizado e especial.<br>
+                Queremos proporcionar conforto, carinho e cuidado para todos os nossos amiguinhos.<br>
+                Petamigos: cuidando do seu pet com amor e dedicação! ❤️
+            </p>
+        </section>
+        <section>
+            <h2>Dados do responsável:</h2>
+            <form>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </p>
+                <h2>Informações do animal:</h2>
+                <p>
+                    <label for="nome-animal">
+                        <h3>Nome do Pet:</h3>
+                    </label>
+                    <input type="text" id="nome-animal" name="nome-animal" required>
+                </p>
+
+                <h3>Espécie:</h3>
+                <p>
+
+                    <select>
+                        <option>Cachorro</option>
+                        <option>Gato</option>
+                        <option>Hamster</option>
+                        <option>Pássaro</option>
+                        <option>Tartaruga</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <label>Outro? Escreva abaixo:</label><br>
+                    <input type="text" id="outroanimal" name="outroanimal" placeholder="Escreva qual animal é..."
+                        max="20">
+
+                </p>
+                <h3>Porte:</h3>
+                <p>
+
+                    <input type="radio" id="pequeno" name="pequeno">
+                    <label for="pequeno">Pequeno</label>
+                    <input type="radio" id="medio" name="medio">
+                    <label for="pequeno">Médio</label>
+                    <input type="radio" id="grande" name="grande">
+                    <label for="pequeno">Grande</label>
+
+                </p>
+                <h3>Serviços Desejados:</h3>
+                <p>
+                    <label>Banho</label>
+                    <input type="checkbox" id="banho" name="banho">
+                    <label>Tosa</label>
+                    <input type="checkbox" id="tosa" name="tosa">
+                    <label>Corte de Unhas</label>
+                    <input type="checkbox" id="cortedeunhas" name="cortedeunhas">
+                    <label>Hidratação</label>
+                    <input type="checkbox" id="hidratacao" name="hidratacao">
+                </p>
+                <h3>Data do tratamento:</h3>
+                <p>
+                    <input type="date" id="data" name="data">
+                    <input type="time" id="data" name="data">
+                </p>
+                <p>
+                    <label for="observacao">Observações:</label>
+                    <br>
+                    <textarea id="observacao" placeholder="Digite aqui suas observações..." maxlength="250"></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" id="certeza" name="certeza" required>
+                    <label>Confirma suas informações?</label>
+                </p>
+                <foot>
+                    <button>
+                        Enviar
+                    </button>
+                </foot>
+            
+
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

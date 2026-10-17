@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel And Play</title>
+</head>
+
+<body>
+    <!--Header: titulo, subtitulo e navegação para as três páginas-->
+    <header>
+        <h1>Pixel & Play1<h1>
+                <h2>Festival de games e cultura pop</h2>
+
+                <nav>
+                    <a href="../index.html">Início</a>|
+                    <a href="./inscrição.html">Inscrição</a>|
+                    <a href="./programação.html">Programação</a>
+                </nav>
+    </header>
+    <main>
+        <section>
+            <h2> Formulário de participação </h2>
+            <form>
+                <fieldset>
+                    <h3>1 - INFORMAÇÕES</h3>
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <br>
+                        <input text="text" id="nome" name="nome" placeholder="Alex Silva" maxlenght="10" required>
+                    </p>
+
+
+                    <p>
+
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Euofsilva@gmail.com" required
+                            autocomplete="email">
+
+                    </p>
+
+                    <p>
+                        <label for="telefone">Telefone:</label>
+                        <br>
+                        <input text="tel" id="telefone" name="telefone" placeholder="(47) 6767-6767" required
+                            pattern="[0-9]{16}" autocomplete="tel">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <h3>2 - INGRESSOS </h3>
+                    <p>
+                        <select>
+                            <option>Inteira</option>
+                            <option>Meia-entrada</option>
+                            <option>Cortesia</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="quantidade">Quantidade de Ingressos:</label>
+                        <br>
+                        <input text="number" id="quantidade" name="quantidade" min="1" max="4">
+                    </p>
+                    <p>
+                        <label for="dia">Data dos ingressos:</label>
+                        <br>
+                        <input type="date" id="data" name="data" min="2026-11-21" max="2026-11-22">
+                    </p>
+                    <p>
+                        <label for="horario">Horário aproximado de chegada:</label>
+                        <br>
+                        <input type="time" id="horario" name="horario">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <h3>3 - SEUS INTERESSES</h3>
+                    <p>
+                        <label for="Arena">Arena Retro</label>
+
+                        <input type="radio" id="Arena" name="Arena">
+                        <label for="cosplay">Desfile de Cosplays</label>
+
+                        <input type="radio" id="desfile" name="desfile">
+                        <label for="Oficina">Oficina de pixel art</label>
+
+                        <input type="radio" id="oficina" name="oficina">
+                    </p>
+                </fieldset>
+                Outras atividades de interesse [pode marcar várias]:
+                <label for="campeonato">Campeonato</label>
+                <input type="checkbox" id="campeonato" name="campeonato">
+                <label for="colecionismo">Colecionismo</label>
+                <input type="checkbox" id="colecionismo" name="colecionismo">
+                <label for="oficinas">Oficinas</label>
+                <input type="checkbox" id="oficinas" name="oficinas">
+                </p>
+                <p>
+                    <label for="pulseira">Cor de pulseira favorita:</label>
+                    <input type="color" id="pulseira" name="pulseira">
+                </p>
+                <p>
+                    <label for="games">Interesse em games, de 1(muito baixo) a 5 (muito alto):</label>
+                    <input type="range" id="games" name="games" min="1" max="5" step="1">
+                </p>
+                <p>
+                    <label for="foto">Foto da fantasia[apenas em png, jpeg]:</label><br>
+                    <input type="file" id="fantasia" name="fantasia" accept="imgpng, img jpeg">
+                </p>
+                <p>
+                <h4>Observações:</h4>
+                <textarea id="observações" placeholder="Dúvida ou Sugestão..." required></textarea>
+                </p>
+                <footer>
+                    <button>
+                        Enviar
+                    </button>
+                </footer>
+            </form>
+
+        </section>
+    </main>
+    <foot>
+      
+    </foot>

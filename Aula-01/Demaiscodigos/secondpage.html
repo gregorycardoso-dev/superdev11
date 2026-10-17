@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt-br">
+
+<head>
+    <title> Sobre Mim</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header>
+        <h1 id="inicio">
+            UM POUCO SOBRE...MIM
+        </h1>
+        <P>
+            Meu nome é Gregory Frühling Cardoso.
+            Tenho 18 anos, e estou fazendo o SUPERDEV pois quero ser um programador confiável.
+        </P>
+    </header>
+    <!--Acima: "header" mostra que é um cabeçalho do body.-->
+    <main>
+        <!--Acima: "Main" mostra que é a parte principal do body.-->
+        <span style="color: red">
+            <h2>
+                </style>COISAS QUE GOSTO</h2>
+        </span>
+        <ul>
+            <li>HOBBIES</li>
+            <ol>
+                <li>Ver Filmes; Top 5 Favoritos:</li>
+                <ol>
+                    <li>No Country For Old Men</li>
+                    <li>M, O vampiro de Dusseldorf</li>
+                    <li>Harakiri</li>
+                    <li>Batman, The Dark Knight</li>
+                    <li>Blade Runner</li>
+                </ol>
+                <li>Jogar; Top 5 Games Favoritos:</li>
+                <ol>
+                    <li>Detroit Became Human</li>
+                    <li>Stray</li>
+                    <li>Undertale</li>
+                    <li>Cs 2</li>
+                    <li>Road 96</li>
+                </ol>
+                <li>Músicas; Top 5 Músicas Favoritas:</li>
+                <ol>
+                    <li>Dance Of Eternity - Dream Theater</li>
+                    <li>Ignominious And Pale - Necrophagist</li>
+                    <li>A Nightmare To Remember - Dream Theater</li>
+                    <li>The Red Barchetta - Rush</li>
+                    <li>The Grudge - TOOL</li>
+                </ol>
+            </ol>
+
+        </ul>
+        <section>
+            <p>
+                <strong>Agora</strong>, algumas perguntas sobre mim, para ver se você se identifica:
+            </p>
+
+        </section>
+        <!--Acima: "Section" define uma seção grupal, como uma pergunta, texto, subtitulo...-->
+        <section>
+            <h2>Pergunta 1: Qual o baterista do Dream Theater atual? - E o melhor de todos os tempos-</h2>
+            <form>
+                <!--Acima: "Form" é a tag de formulário, ou seja, algo que o usuário vai responder.-->
+                i<nput type="radio" value="Mike Portnoy" id="p1a" name="pergunta1" <label for="p1a">Mike
+                Portnoy</label><br>
+                <!--Acima: "input" é uma tag para dados. "radio" é a tag de marcação de caixas como resposta. 
+                "value" Define o valor associado à opção selecionada. "id" Identifica individualmente o campo.
+                "name" Define o nome do campo e, nos rádios, agrupa as opções. "For" Associa o texto do label
+                 ao elemento indicado pelo id. Já "label" fornece um texto descritivo para um campo.-->
+                <input type="radio" value="Mike Mangini" id="p1a" name="pergunta1" <label for="p1b">Mike
+                Mangini</label><br>
+                <input type="radio" value="George Kollias" id="p1a" name="pergunta1" <label for="p1c">George
+                Kollias</label><br>
+                <input type="radio" value="Neil Peart" id="p1a" name="pergunta1" <label for="p1d">Neil Peart</label><br>
+            </form>
+        </section>
+        <section>
+            <form>
+                <h2>
+                    Qual o personagem principal do filme "No Country For Old Men?"
+                </h2>
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite Aqui..." </form>
+                <!--Acima: o type "text" indica que os dados que serão recebidos do usuário
+                tem a forma de texto. O "placeholder" é um texto transparente dentro da caixa de resposta.-->
+        </section>
+        <section>
+            <h2>
+                Qual o nome da escrita de frases em lápides?
+            </h2>
+            <form>
+                <input type="password" id="p3" name="pergunta3" placeholder="Digite a certa">
+                <!--O type "password" (geralmente) se difere do text por esconder a resposta, como
+                numa senha.-->
+
+            </form>
+        </section>
+        <section>
+            <h2>Qual a data de lançamento de Detroit Became Human?</h2>
+            <form>
+                <input type="date">
+                <!-- o type "data" permite escrever os dados em forma de data no calendário.-->
+            </form>
+
+        </section>
+        <section>
+            <h2>Quais bandas citadas abaixo são progressivas?</h2>
+            <form>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Kiss" <label for="p5a">Kiss</label><br>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Sepultura">
+                <!-- o type "checkbox" permite selecionar várias opções como resposta.-->
+                for="p5a">Sepultura</label><br>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Andromeda" <label
+                    for="p5a">Andromeda</label><br>
+                <input type="checkbox" id="p5a" name="pergunta5" value="TOOL" <label for="p5a">TOOL</label><br>
+
+            </form>
+        </section>
+        <section>
+            <form>
+                <h2>Coloque aqui sua música favorita!</h2>
+                <input type="file" id="p6" name="pergunta6">
+                <!-- o type "file" permite carregar um arquivo de sua escolha, baixado.-->
+            </form>
+        </section>
+        <section>
+            <h2>Qual jogo teve um mod que inspirou o jogo "<abbr title="Counter-Strike">CS</abbr>"?</h2>
+            <form>
+                <select name="pergunta7" id="p7">
+                    <option value="Half-Life">Half-Life</option>
+                    <option value="Terraria">Terraria</option>
+                    <option value="Fortnite">Fortnite</option>
+                    <!--O "select" permite selecionar caixas de texto como resposta, cada uma 
+                    delas diferenciada pelo "option".-->
+                </select>
+            </form>
+        </section>
+        <section>
+            <h2>Qual o nome da banda com o logo abaixo:</h2>
+            <figure>
+                <img src="images.png" alt="Logotipo de uma banda de metal brasileira, com um -S- com espinhos" width="100" height="150"><br>
+                <!-- o "img" permite colocar uma imagem na página, e o "src" é o url da imagem.
+                 Abaixo, o "figcaption" define a descrição da imagem para leitura visual, e o "alt",
+                 acima, para leitores de tela.-->
+                <figcaption>Logotipo de uma banda de metal brasileira, com um -S- com espinhos.</figcaption>
+
+                <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
+            </figure>
+        </section>
+        <section>
+            <h1>Pontuação:</h1>
+            <table border="1">
+                <!--o "table" cria uma tabela, e o "border", o tamanho da borda.-->
+                <thead>
+                    <!--Cabeçalho da table.-->
+                    <tr>
+                        <!--o "tr" é uma linha criada dentro da tabela. dentro das linhas, abaixo, são criadas 
+                        as células.-->
+                        <th>Pontuação</th>
+                        <!--"th" representa uma célula na tabela de cabeçalho.-->
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Você tentou!</td>
+                        <!--já "td", uma célula dentro do tr, usada no tbody.-->
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Boa tentativa! Te respeito por isso...!</td>
+                    </tr>
+                    <tr>
+                        <td>5-7</td>
+                        <td>Quase lá! Te considero um amigão.</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Essa tentativa foi da minha namorada.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="2">
+                        Good Luck on the next one!
+                    </td>
+                </tfoot>
+
+            </table>
+        </section>
+        <section>
+
+            <h1>Respostas:</h1>
+            <details>
+                <summary>Clique <strong>aqui</strong> para ver as respostas</summary>
+                <!--O "details" esconde informações adicionais, e o "summary" dá um resumo
+                clicável do details.-->
+
+                <ol>
+                    <li>Mike Portnoy</li>
+                    <li>Anton Chigurh</li>
+                    <li>Epitáfio</li>
+                    <li>25 de mai de 2018</li>
+                    <li>Andromeda e TOOL</li>
+                    <li>Ponto grátis!</li>
+                    <li>Half-Life</li>
+                    <li>Sepultura</li>
+                </ol>
+            </details>
+        </section>
+        <section>
+            <h2>O que você achou? Sua opinião é importante!
+            </h2>
+            <form>
+
+                <fieldset>
+                    <legend>Informações de contato:</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="nome">Sugestões/Comentários:</label>
+                    <textarea id="comentarios" placeholder="Digite sua resposta:"></textarea>
+
+                </fieldset>
+            </form>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>
+            &lambda; Quiz sobre Gregory Frühling Cardoso, todos os esquerdos reservados.
+        </p>
+        <a href="https://www.instagram.com/gregoryfcardoso/?hl=en" target="_blank"> Clique aqui para ver meu
+            instagram!</a>
+        <!--"a" representa um gancho para outro link (hyperlink), junto do href.
+        com o target="_blank", o hyperlink puxa o usuário para uma página separada, sem 
+        sobrepor a página aberta.--><br>
+        <a href="#inicio">Clique <strong>aqui</strong> para voltar ao início.</a>
+    </footer>
+</body>
+
+</html>
